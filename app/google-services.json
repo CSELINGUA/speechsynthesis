@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "851147291875",
+    "project_id": "tmsreader",
+    "storage_bucket": "tmsreader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851147291875:android:749903f6ee5382502619d6",
+        "android_client_info": {
+          "package_name": "com.example.tmsreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851147291875-l2kfntp6cei57qumjcmvi002tmcocfc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tmsreader",
+            "certificate_hash": "182e5547a682a042acdfaac53021aa118a46f043"
+          }
+        },
+        {
+          "client_id": "851147291875-aubcslio929for6mfk20q6dv5amusbfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdSYM4jPS4RiGCuVQINuctMXyY2UZdlMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851147291875-aubcslio929for6mfk20q6dv5amusbfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

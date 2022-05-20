@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_stroke"
+                android:padding="10dp"
+                android:text="TTS"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/closeImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_close"
+            tools:ignore="contextDescription"/>
+
+
+</LinearLayout>
+
+</FrameLayout>

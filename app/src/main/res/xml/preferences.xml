@@ -1,0 +1,25 @@
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+            app:key="checkbox"
+            app:summary="Tap to check if on or off"
+            app:title="Checkbox Preference" />
+    <EditTextPreference
+            app:dialogTitle="Enter a text"
+            app:key="text"
+            app:summary="Click to show a text entry dialog"
+            app:title="EditText Preference" />
+    <ListPreference
+            app:dialogTitle="Select duration"
+            app:entries="@array/settings_list_preference_titles"
+            app:entryValues="@array/settings_list_preference_values"
+            app:key="list"
+            app:summary="Click to show a list to choose from"
+            app:title="List Preference" />
+    <SwitchPreference
+            app:key="switch"
+            app:title="Switch Preference"
+            app:summary="Click to switch on or off"
+            app:defaultValue="true"/>
+</androidx.preference.PreferenceScreen>

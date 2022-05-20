@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.Home3">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:id="@+id/layout_rate"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/me_anchor_img_rate"
+                    android:src="@drawable/ic_rate_review"
+                    android:layout_height="40dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="40dp">
+            </ImageView>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Support us! Rate us on Play Store"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/layout_share"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/me_anchor_img_share"
+                    android:src="@drawable/ic_share"
+                    android:layout_height="40dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="40dp">
+            </ImageView>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Share TMSReader on WhatsApp"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/layout_settings"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/me_anchor_img_settings"
+                    android:src="@drawable/ic_settings"
+                    android:layout_height="40dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="40dp">
+            </ImageView>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Settings"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

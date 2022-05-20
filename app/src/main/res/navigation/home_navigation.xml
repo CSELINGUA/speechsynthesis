@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/home_navigation"
+            app:startDestination="@id/home1">
+
+    <fragment android:id="@+id/home1" android:name="com.example.pdfreader.fragments.Home1" android:label="Speech Synthesizer"
+              tools:layout="@layout/home1_fragment"/>
+    <fragment android:id="@+id/home2" android:name="com.example.pdfreader.fragments.Home2" android:label="Recents"
+              tools:layout="@layout/home2_fragment"/>
+<!--    <fragment android:id="@+id/home3" android:name="pdfreaderents.Home3" android:label="Personalize"-->
+<!--              tools:layout="@layout/home3_fragment"/>-->
+
+
+</navigation>

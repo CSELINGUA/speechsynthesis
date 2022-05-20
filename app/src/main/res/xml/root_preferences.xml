@@ -1,0 +1,83 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            app:title="Basics">
+
+        <EditTextPreference
+                app:key="signature"
+                app:title="Username"
+                app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreference
+                app:key="switch"
+                app:title="Night Mode"
+                app:summaryOn="sets night mode on for reader screen"
+                app:summaryOff="sets night mode off for reader screen"
+                app:defaultValue="false"/>
+
+        <SwitchPreference
+                app:key="switch"
+                app:title="Scroll direction"
+                app:summaryOn="pages flow horizontally"
+                app:summaryOff="pages flow vertically"
+                app:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            app:title="Details">
+
+        <ListPreference
+                app:dialogTitle="Select method"
+                app:entries="@array/settings_list_preference_titles"
+                app:entryValues="@array/settings_list_preference_values"
+                app:key="list"
+                app:title="Auto advance reader"
+                app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            app:title="Advanced">
+
+        <CheckBoxPreference
+                app:key="checkbox"
+                app:summary="Tap to check if on or off"
+                app:title="Checkbox Preference" />
+        <EditTextPreference
+                app:dialogTitle="Enter a text"
+                app:key="text"
+                app:summary="Click to show a text entry dialog"
+                app:title="EditText Preference"/>
+        <ListPreference
+                app:dialogTitle="Select duration"
+                app:entries="@array/settings_tts_titles"
+                app:entryValues="@array/settings_tts_values"
+                app:key="list2"
+                app:useSimpleSummaryProvider="true"
+                app:title="TextToSpeech Engine"/>
+        <SwitchPreference
+                app:key="switch2"
+                app:title="Switch Preference"
+                app:summary="Click to switch on or off"
+                app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
